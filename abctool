@@ -2471,10 +2471,10 @@ class abctune:
         if octave_count == 0:
             pass
         elif octave_count < 0 and root.islower():
-            root = string.upper(root)
+            root = root.upper()
             octave_count = octave_count + 1
         elif octave_count > 0 and root.isupper():
-            root = string.lower(root)
+            root = root.lower()
             octave_count = octave_count - 1
 
         if octave_count == 0:
