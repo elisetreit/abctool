@@ -2158,7 +2158,7 @@ class abctune:
                 if key_type == '':
                     key = key_root
                 else:
-                    exit
+                    sys.exit()
             
             # make F# -> Gb
             key = self.non_enharmonic_key(key)
