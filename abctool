@@ -1419,7 +1419,7 @@ class abctune:
              'mixolydian':4, 'mix':4,
              'aeolian':5, 'aeo':5,
              'locrian':6, 'loc':6,
-             'maj': 0,
+             'maj': 0, 'major': 0,
              'm':5, 'minor':5, 'min': 5
              }
 
